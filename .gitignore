@@ -1,0 +1,19 @@
+# Dependensi PHP (diinstal ulang via composer)
+vendor/
+
+# Log & file sementara
+*.log
+*.cache
+
+# File OS
+.DS_Store
+Thumbs.db
+
+# Konfigurasi editor / IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment lokal (jika nanti dipakai)
+.env

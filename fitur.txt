@@ -1,0 +1,43 @@
+List Semua Fitur Yang Ada
+
+1. Manajemen User
+-> Login User
+-> Registrasi User
+-> Update Profile User
+-> User Log Out
+
+Data :
+1. Username
+2. Password
+3. Role
+
+2. Manajemen Product 
+-> List Product
+-> Detail Product
+-> Tambah Product
+-> Hapus Product
+-> Update Product
+
+Data :
+1. Nama Product
+2. Harga
+3. Stok
+4. Kategori
+5. Path Gambar
+
+3. Manajemen Transaksi
+-> Pembelian Product
+-> Diskon Product 
+-> Nota Pembelian Product
+-> Riwayat Transaksi
+
+Data :
+1. Nomor Struck
+2. Total Harga Belanja
+3. Total Pembelian
+4. Nominal Bayar
+5. Nominal Pengembalian
+
+
+
+

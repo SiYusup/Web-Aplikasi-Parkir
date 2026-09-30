@@ -1,0 +1,15 @@
+{
+  "name": "kasir_toko_sederhana",
+  "version": "1.0.0",
+  "description": "Belajar untuk ulangan besok",
+  "license": "ISC",
+  "author": "Syekh Yusuf Pramadi",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

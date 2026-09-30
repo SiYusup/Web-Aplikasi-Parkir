@@ -1,0 +1,14 @@
+APLIKASI PARKIR SEKOLAH
+
+Manajemen Akun
+1. Login
+2. Registrasi
+3. Logout
+
+Manajemen Parkir
+1. Parkir Masuk
+2. Parkir Keluar
+
+Manajemen Laporan Parkir
+1. Laporan parkir masuk dan Keluar
+2. Konversi via pdf/spreadsheet
