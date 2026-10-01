@@ -268,7 +268,7 @@ class ParkirController
         $out = fopen('php://output', 'w');
         // BOM agar Excel Windows membuka UTF-8 dengan benar
         fwrite($out, "\xEF\xBB\xBF");
-        fputcsv($out, ['No', 'Nomor Plat', 'Jenis', 'Waktu Masuk', 'Waktu Keluar', 'Status', 'Total Bayar (Rp)'], ';');
+        fputcsv($out, ['No', 'Nomor Plat', 'Jenis', 'Waktu Masuk', 'Waktu Keluar', 'Status', 'Total Bayar (Rp)'], ';', '"', '\\');
 
         $no = 1;
         foreach ($daftar as $parkir) {
@@ -280,10 +280,10 @@ class ParkirController
                 $parkir->waktu_keluar ?? '-',
                 $parkir->status === 'parkir' ? 'Parkir' : 'Selesai',
                 $parkir->total_bayar !== null ? (int) $parkir->total_bayar : 0,
-            ], ';');
+            ], ';', '"', '\\');
         }
 
-        fputcsv($out, ['', '', '', '', '', 'Total Pendapatan', $totalPendapatan], ';');
+        fputcsv($out, ['', '', '', '', '', 'Total Pendapatan', $totalPendapatan], ';', '"', '\\');
         fclose($out);
         exit;
     }
